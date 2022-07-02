@@ -99,6 +99,18 @@ function quickSort(arr,left,right){
 
 const arr = [6,3,4,6,1,7,3,9,2,8];
 
-quickSort(arr,0,arr.length-1);
+// quickSort(arr,0,arr.length-1);
 
-console.log(arr);
+// console.log(arr);
+// for (let val of arr){
+//     console.log(val);
+// }
+
+let object={
+    'key1':'adhd',
+    'key2':'shdhd'
+}
+
+for (let val of Object.entries(object)){
+    console.log(val);
+}
